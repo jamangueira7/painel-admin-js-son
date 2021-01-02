@@ -29,3 +29,14 @@
 #navbar-search-field {
     width: 100%;
 }
+
+#navbar-profile img {
+    border-radius: 50%;
+    width: 12%;
+}
+
+#navbar-profile span {
+    padding-left: 4%;
+    color: #262d37ff;
+    font-family: 'Nunito', sans-serif;
+}
