@@ -10,35 +10,29 @@
 
 <br>
 
-# Q&A Engine
+# Painel administrativo com Bootstrap 4, JQuery, JavaScript e Chart.js
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Yarn](https://yarnpkg.com/) - 1.22.4
-- [Npm](https://www.npmjs.com/) - 6.14.5
-- [NodeJS](https://nodejs.org/en/) - v14.4.0
+
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Bootstrap 4](https://getbootstrap.com/)
-- [Postgres](https://www.postgresql.org/)
+- [Bootstrap](https://getbootstrap.com/) - v4.1.3
+- [JQuery](https://jquery.com/) - v3.3.1
 
 ## 💻 Projeto
 
-Projeto de um Q&A Engine com NodeJS Postgres.
+Painel administrativo com Bootstrap 4, JQuery, JavaScript e Chart.js
 
-Esse projeto pratico da [School of Net](https://www.schoolofnet.com/projeto-pratico/nodejs/banco-de-dados-e-nodejs/criando-uma-question-and-answers-com-nodejs-e-mysq).
+Esse projeto pratico da [School of Net](https://www.schoolofnet.com/projeto-pratico/frontend/css/criando-um-painel-administrativo-com-bootstrap-4/12816).
 
 ## 🚀 Como Rodar
 
 - Clone o projeto.
-- npm install.
-- Rodar o Postgres com docker: docker run --name gostack_postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
-- Criar um banco com o nome app-qa.
-- yarn start.
-- acesse http://localhost:9000/
+- Acesse na raiz do projeto o arquivo index.html
 
 ## 🤔 Como contribuir
 
