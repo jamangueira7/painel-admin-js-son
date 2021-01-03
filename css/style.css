@@ -2,7 +2,14 @@
 
 body {
     background: #eff1f4ff;
+    overflow-x: hidden;
 }
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+/* navbar */
 #navbar-site-title {
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
