@@ -24,6 +24,12 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+#sidebar-wrapper .sidebar-heading img {
+    width: 30px;
+    padding-bottom: 3%;
+    padding-right: 3%;
+}
+
 #sidebar-wrapper .list-group {
     width: 18rem;
 }
@@ -116,7 +122,7 @@ body {
     padding-bottom: 0;
 }
 
-/**/
+/* TOGGLE */
 #menu-toggle {
     background-color: #232d37ff;
     width: 82px;
