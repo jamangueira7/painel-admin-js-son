@@ -48,6 +48,11 @@ body {
     color: #fff;
 }
 
+#sidebar-wrapper .list-group-item i {
+    padding-right: 5.5%;
+    font-size: 18px;
+}
+
 #page-content-wrapper {
     min-width: 100vw;
 }
