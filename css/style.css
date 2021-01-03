@@ -9,6 +9,39 @@ body {
     min-width: 100vw;
 }
 
+#sidebar-wrapper {
+    min-height: 100vh;
+    /*margin-left: -18rem;*/
+    background-color: #3e4856ff;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    background-color: #262d37ff;
+    color: #fff;
+    height: 64px;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#sidebar-wrapper .list-group {
+    width: 18rem;
+}
+
+#sidebar-wrapper .list-group-item {
+    background-color: #3e4856ff;
+    color: #fff;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    padding: 10%;
+    padding-left: 15%;
+}
+
+#sidebar-wrapper .list-group-item:hover {
+    background-color: #262e39f0;
+    color: #fff;
+}
+
 @media(min-width: 768px) {
     #page-content-wrapper {
         min-width: 0;
