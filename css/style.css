@@ -149,6 +149,7 @@ body {
     font-family: 'Nunito', sans-serif;
     color: #262d37ff;
     font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .son-form {
@@ -161,4 +162,9 @@ body {
 
 .confirm-btn {
     background-color: #f5f7faff;
+}
+
+.form-group label{
+    font-size: 18px;
+    color: #a3a8aeff;
 }
