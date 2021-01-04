@@ -151,3 +151,14 @@ body {
     font-size: 30px;
 }
 
+.son-form {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(164, 164, 164, 0.3);
+}
+.son-form-body {
+    padding: 2%;
+}
+
+.confirm-btn {
+    background-color: #f5f7faff;
+}
