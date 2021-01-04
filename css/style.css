@@ -139,3 +139,15 @@ body {
     width: 30px;
 }
 
+/* FORM */
+
+#content {
+    margin-top: 50px;
+}
+
+.son-main-text-3 {
+    font-family: 'Nunito', sans-serif;
+    color: #262d37ff;
+    font-size: 30px;
+}
+
