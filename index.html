@@ -123,6 +123,12 @@
                     </form>
                     <h3>Sem conteúdo</h3>
                 </div>
+                <div class="card">
+                    <h3 id="vendas-h3">Vendas</h3>
+                    <div class="card-body">
+                        <canvas id="relatorio"></canvas>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -136,6 +142,21 @@
         $("#menu-toggle").click(function (e) {
             e.preventDefault();
             $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+    <script>
+        var contexto = document.getElementById("relatorio").getContext('2d');
+        var grafico = new Chart(contexto, {
+            type: 'line',
+            data: {
+                labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho'],
+                datasets:[{
+                    label: 'Vendas no ano',
+                    backgroundColor: "#5898d9ff",
+                    borderColor: "#5898d9ff",
+                    data: [10,5,7,18,14,20,22]
+                }]
+            }
         });
     </script>
 </body>
